@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+#include <cstdlib>
+
+main(){
+    int num1, num2, num3, suma, promed, produc, menor, mayor;
+    printf("INGRESA TRES NUMEROS ENTEROS\n");
+    scanf("%d", &num1);
+    scanf("%d", &num2);
+    scanf("%d", &num3);
+
+    suma = num1 + num2 + num3;
+    promed = num1 + num2 + num3;
+    promed = promed/3;
+    produc = num1 * num2 * num3;
+
+    printf("\nLa suma de los tres numeros es %d", suma);
+    printf("\nEl promedio es igual a %d", promed);
+    printf("\nEl producto de los tres numeros es %d", produc);
+    printf("\nEl numero menor de %d, %d, y %d es: \n\n", num1, num2, num3, menor);
+
+
+    system("PAUSE");
+	return 0;
+}
