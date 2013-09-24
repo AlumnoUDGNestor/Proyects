@@ -1,0 +1,23 @@
+
+using System;
+
+namespace Persona
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine(" 	CAPTURAS!!	\n\n");
+			
+	
+			Console.WriteLine("Ingresa los datos de la Primer persona \n");
+			
+			
+			
+			
+			Console.ReadLine();
+			
+		
+		}
+	}
+}
