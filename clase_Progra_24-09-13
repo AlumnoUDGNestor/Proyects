@@ -22,6 +22,18 @@ Espacios de nombres
   
   - EspacioEjemplo.Ejemplo
   
-  -System.Threading.Thread
+  -System.Threading.Thread.Sleep(1000);
+  
+  
+  - Sentencia using
+  
+    Como puede resultar muy complicado tener que escribir nombres tan largos
+  en cada referencia a clases, C# ha incluido un mecanismo de importación 
+  de espacios de nombres con la siguiente sintaxis.
+  
+  using <espacioNombre>
+  using System.Threading;
+  Thread.Sleep(1000);
+  
   
   
