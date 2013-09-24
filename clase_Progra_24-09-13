@@ -1,0 +1,27 @@
+Espacios de nombres
+
+  - Del mismo modo que los archivos se organizan
+    en directorio, las clases se Organizan en espacios
+    de nombres.
+    
+  - System.Data
+  - System.Console
+  
+  Para definir un espacio de nombres se utiliza la siguiente sintaxis:
+  
+  namespace EspacioEjemplo
+  {
+    class Ejemplo;
+  }
+  
+    El verdadero nombre de una clase se le denomina nombre completamente
+  calificado, es el nombre que le damos al declararla prefijado por la 
+  concatenación de todos los espacios de nombres a los que pertenece,
+  ordenados del más externo al más interno y segundo cada uno de ellos por
+  un punto.
+  
+  - EspacioEjemplo.Ejemplo
+  
+  -System.Threading.Thread
+  
+  
