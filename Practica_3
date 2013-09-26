@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Personas
+{
+    class Program
+    {
+        public Int64 codigo;
+        public string nombre;
+        public Int64 telefono;
+        public string face;
+
+        static void Main(string[] args)
+        {
+
+            int x;
+            Program c = new Program();
+
+            for (x = 0; x < 4; x++)
+            {
+
+                Console.WriteLine("        CAPTURAS!!       \n\n");
+                Console.WriteLine("Ingresa tu codigo \n");
+                c.codigo = Int64.Parse(Console.ReadLine());
+                Console.Clear();
+
+                Console.WriteLine("        CAPTURAS!!       \n\n");
+                Console.WriteLine("Ingresa tu nombre \n");
+                c.nombre = Console.ReadLine();
+                Console.Clear();
+
+                Console.WriteLine("        CAPTURAS!!       \n\n");
+                Console.WriteLine("Ingresa tu Telefono \n");
+                c.telefono = Int64.Parse(Console.ReadLine());
+                Console.Clear();
+
+                Console.WriteLine("        CAPTURAS!!       \n\n");
+                Console.WriteLine("Ingresa tu Facebook \n");
+                c.face = Console.ReadLine();
+                Console.Clear();
+            }
+
+                
+                Console.Clear();
+               Console.WriteLine("Tus datos son: \n" + c.codigo + ("\n") + c.nombre + ("\n") + c.telefono + ("\n") + c.face);
+                Console.ReadLine();
+            }
+        }
+    }
+
